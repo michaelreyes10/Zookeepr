@@ -5,7 +5,7 @@ const { animals } = require('./Zookeepr/data/animals.json');
 
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
-    // Note that we save the animalsArray as filteredResults here:
+    // Note that we save the animalsArray as filteredResults here::
     let filteredResults = animalsArray;
     if (query.personalityTraits) {
       // Save personalityTraits as a dedicated array.
